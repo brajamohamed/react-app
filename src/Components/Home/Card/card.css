@@ -1,0 +1,50 @@
+#card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  min-width: 250px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(71, 65, 235, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 50px;
+  width: 80%;
+  height: 50px;
+  align-self: center;
+  position: absolute;
+  top: 85%;
+}
+#rate {
+  align-self: center;
+  margin-top: 0;
+}
+#list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-size: small;
+  margin: 10px 0px;
+}
+#category {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}

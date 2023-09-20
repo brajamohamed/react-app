@@ -1,0 +1,12 @@
+#card-container {
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(71, 65, 235, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px 20px;
+  justify-content: center;
+}
